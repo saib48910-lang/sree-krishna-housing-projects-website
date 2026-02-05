@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/Button/Button';
 import styles from './ConfirmationStep.module.css';
-import { BookingData } from '../BookingWizard/BookingWizard';
+import { BookingData } from '@/components/booking/bookingTypes';
 
 interface Props {
     data: BookingData;

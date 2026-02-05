@@ -8,17 +8,7 @@ import { UserDetailsStep } from '../UserDetailsStep/UserDetailsStep';
 import { ConfirmationStep } from '../ConfirmationStep/ConfirmationStep';
 import styles from './BookingWizard.module.css';
 
-export type BookingType = 'site-visit' | 'consultation';
-
-export interface BookingData {
-    type: BookingType | null;
-    date: Date | null;
-    timeSlot: string | null;
-    name: string;
-    phone: string;
-    email: string;
-    message: string;
-}
+import { BookingData } from '../bookingTypes';
 
 export function BookingWizard() {
     const [currentStep, setCurrentStep] = useState(1);

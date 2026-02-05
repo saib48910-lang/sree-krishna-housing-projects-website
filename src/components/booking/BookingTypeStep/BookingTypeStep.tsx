@@ -3,7 +3,7 @@
 import React from 'react';
 import { MapPin, Users, ArrowRight } from 'lucide-react';
 import styles from './BookingTypeStep.module.css';
-import { BookingData, BookingType } from '../BookingWizard/BookingWizard';
+import { BookingData, BookingType } from '@/components/booking/bookingTypes';
 
 interface Props {
     data: BookingData;

@@ -4,7 +4,7 @@ import React from 'react';
 import { ArrowRight, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/Button/Button';
 import styles from './DateTimeStep.module.css';
-import { BookingData } from '../BookingWizard/BookingWizard';
+import { BookingData } from '@/components/booking/bookingTypes';
 
 interface Props {
     data: BookingData;

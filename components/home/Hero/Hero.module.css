@@ -1,0 +1,103 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    /* header offset is handled by main padding in layout, but for hero we might want it under header */
+    margin-top: calc(var(--header-height) * -1);
+    padding-top: var(--header-height);
+}
+
+.backgroundWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.backgroundImage {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.7));
+    z-index: 2;
+}
+
+.contentContainer {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 800px;
+    color: var(--color-white);
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.content p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    color: #E5E5E5;
+    /* Light grey for readability */
+    max-width: 600px;
+}
+
+.ctaGroup {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+/* Specific override for the outline button on dark background to make it pop */
+.secondaryBtn {
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.secondaryBtn:hover {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+@media (min-width: 768px) {
+    .content h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content h1 {
+        font-size: 4rem;
+    }
+
+    .content p {
+        font-size: 1.25rem;
+    }
+}

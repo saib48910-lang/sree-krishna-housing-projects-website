@@ -1,0 +1,80 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    /* Slightly rounded */
+    font-weight: 500;
+    transition: all var(--transition-fast);
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-family: var(--font-inter);
+    letter-spacing: 0.02em;
+}
+
+/* Variants */
+.primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary);
+}
+
+.primary:hover {
+    background-color: var(--color-accent);
+    /* Muted gold on hover */
+    border-color: var(--color-accent);
+    transform: translateY(-1px);
+}
+
+.secondary {
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+    border-color: var(--color-accent);
+}
+
+.secondary:hover {
+    filter: brightness(1.1);
+}
+
+.outline {
+    background-color: transparent;
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.outline:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.ghost {
+    background-color: transparent;
+    color: var(--color-text);
+}
+
+.ghost:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Sizes */
+.sm {
+    height: 36px;
+    padding: 0 16px;
+    font-size: 0.875rem;
+}
+
+.md {
+    height: 44px;
+    padding: 0 24px;
+    font-size: 0.95rem;
+}
+
+.lg {
+    height: 52px;
+    padding: 0 32px;
+    font-size: 1.125rem;
+}
+
+.fullWidth {
+    width: 100%;
+}

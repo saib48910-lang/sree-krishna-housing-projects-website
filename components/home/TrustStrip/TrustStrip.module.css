@@ -1,0 +1,70 @@
+.trustStrip {
+    padding: 60px 0;
+    background-color: var(--color-white);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--color-bg);
+    transition: transform var(--transition-fast);
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.iconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(197, 160, 101, 0.1);
+    /* Low opacity gold */
+    border-radius: 50%;
+    color: var(--color-accent);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+    }
+
+    .card {
+        background-color: transparent;
+        justify-content: center;
+        padding: 0;
+    }
+}

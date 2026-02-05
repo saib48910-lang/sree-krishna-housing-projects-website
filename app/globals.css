@@ -1,0 +1,55 @@
+:root {
+  /* Color Palette */
+  --color-primary: #1A1A1A;
+  /* Charcoal Black / Deep Slate */
+  --color-accent: #C5A065;
+  /* Muted Gold */
+  --color-bg: #F9FAFB;
+  /* Off-white / Soft Grey */
+  --color-bg-dark: #121212;
+  /* Darker background */
+  --color-text: #333333;
+  /* Dark Grey Text */
+  --color-text-light: #F3F4F6;
+  /* Light Text */
+  --color-white: #FFFFFF;
+
+  /* Component Specific */
+  --header-height: 80px;
+  --max-width: 1400px;
+
+  /* Animations */
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.4s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-inter), sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

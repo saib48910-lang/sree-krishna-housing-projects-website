@@ -1,0 +1,63 @@
+.title {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 32px;
+}
+
+.label {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--color-text);
+}
+
+.dateGrid,
+.timeGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.dateBtn,
+.timeBtn {
+    padding: 12px;
+    border: 1px solid #E5E5E5;
+    background-color: var(--color-white);
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: #666;
+    transition: all var(--transition-fast);
+}
+
+.dateBtn:hover,
+.timeBtn:hover {
+    border-color: #ccc;
+    background-color: #f9f9f9;
+}
+
+.active {
+    border-color: var(--color-accent);
+    background-color: var(--color-accent);
+    color: var(--color-white);
+}
+
+.active:hover {
+    border-color: var(--color-accent);
+    background-color: var(--color-accent);
+    color: var(--color-white);
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}

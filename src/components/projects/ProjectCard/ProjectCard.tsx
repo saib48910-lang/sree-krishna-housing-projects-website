@@ -3,7 +3,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { MapPin, ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/Button/Button';
 import styles from './ProjectCard.module.css';
 
 export interface Project {

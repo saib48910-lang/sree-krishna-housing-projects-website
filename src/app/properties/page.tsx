@@ -65,7 +65,7 @@ export default function PropertiesPage() {
         <div className="container">
             <div className={styles.pageHeader}>
                 <h1 className="font-heading" style={{ fontSize: '2.5rem', marginBottom: '8px' }}>Our Properties</h1>
-                <p className="font-body" style={{ color: '#666' }}>Find your dream property in Tirupati's prime locations.</p>
+                <p className="font-body" style={{ color: '#666' }}>Find your dream property in Tirupati&apos;s prime locations.</p>
             </div>
 
             <div className={styles.layout}>

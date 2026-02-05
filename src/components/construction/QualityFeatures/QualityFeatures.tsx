@@ -18,7 +18,7 @@ export function QualityFeatures() {
                 <div className={styles.grid}>
                     <div className={styles.info}>
                         <h2 className={styles.title}>Quality You Can Trust</h2>
-                        <p className={styles.desc}>We don't cut corners. Our commitment to excellence ensures your building stands the test of time.</p>
+                        <p className={styles.desc}>We don&apos;t cut corners. Our commitment to excellence ensures your building stands the test of time.</p>
                     </div>
 
                     <div className={styles.features}>

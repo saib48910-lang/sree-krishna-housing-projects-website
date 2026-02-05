@@ -46,7 +46,7 @@ const PROPERTY_DATA = {
 };
 
 export default function PropertyDetailPage() {
-    const params = useParams();
+    const _params = useParams();
     // In a real app, we would use params.id to fetch data.
     // For now, we use static data.
 

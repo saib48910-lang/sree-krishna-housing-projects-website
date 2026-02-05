@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Phone, MessageCircle, MapPin, Clock, Mail } from 'lucide-react';
-import { Button } from '@/components/ui/Button/Button';
 import styles from './ContactInfo.module.css';
 
 export function ContactInfo() {

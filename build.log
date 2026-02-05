@@ -1,0 +1,40 @@
+﻿
+> shimmering-aldrin@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 37.7s
+  Running TypeScript ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/17) ...
+  Generating static pages using 3 workers (4/17) 
+  Generating static pages using 3 workers (8/17) 
+  Generating static pages using 3 workers (12/17) 
+Γ£ô Generating static pages using 3 workers (17/17) in 1545.5ms
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ Γùï /about
+Γö£ Γùï /booking
+Γö£ Γùï /client-login
+Γö£ Γùï /construction
+Γö£ Γùï /contact
+Γö£ Γùï /projects
+Γö£ Γùï /properties
+Γö£ ╞Æ /properties/[id]
+Γö£ Γùï /services
+Γö£ Γùï /services/construction
+Γö£ Γùï /services/consulting
+Γö£ Γùï /services/land-development
+Γö£ Γùï /services/property-transactions
+Γöö Γùï /testimonials
+
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { MapPin, Users, ArrowRight } from 'lucide-react';
+import { MapPin, Users } from 'lucide-react';
 import styles from './BookingTypeStep.module.css';
 import { BookingData, BookingType } from '@/components/booking/bookingTypes';
 

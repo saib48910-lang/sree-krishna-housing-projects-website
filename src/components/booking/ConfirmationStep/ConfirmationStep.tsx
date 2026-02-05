@@ -26,7 +26,7 @@ export function ConfirmationStep({ data }: Props) {
             <div className={styles.detailsCard}>
                 <div className={styles.row}>
                     <span>Booking ID:</span>
-                    <span className={styles.value}>#SK{Math.floor(Math.random() * 10000)}</span>
+                    <span className={styles.value}>#SK{2024}</span>
                 </div>
                 <div className={styles.row}>
                     <span>Date:</span>

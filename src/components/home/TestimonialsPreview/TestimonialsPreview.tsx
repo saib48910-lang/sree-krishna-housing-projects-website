@@ -31,7 +31,7 @@ export function TestimonialsPreview() {
             <div className="container">
                 <div className={styles.header}>
                     <h2 className="font-heading" style={{ fontSize: '2.5rem', marginBottom: '16px', textAlign: 'center' }}>Client Stories</h2>
-                    <p className="font-body" style={{ color: '#666', textAlign: 'center', marginBottom: '48px', maxWidth: '600px', margin: '0 auto 48px auto' }}>Don't just take our word for it. Hear from our satisfied clients.</p>
+                    <p className="font-body" style={{ color: '#666', textAlign: 'center', marginBottom: '48px', maxWidth: '600px', margin: '0 auto 48px auto' }}>Don&apos;t just take our word for it. Hear from our satisfied clients.</p>
                 </div>
 
                 <div className={styles.grid}>
@@ -40,7 +40,7 @@ export function TestimonialsPreview() {
                             <div className={styles.quoteIcon}>
                                 <Quote size={48} strokeWidth={0} fill="rgba(201, 166, 107, 0.4)" />
                             </div>
-                            <p className={styles.text}>"{item.text}"</p>
+                            <p className={styles.text}>&quot;{item.text}&quot;</p>
 
                             <div className={styles.footer}>
                                 <div className={styles.stars}>

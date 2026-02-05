@@ -1,0 +1,68 @@
+.hero {
+    background-color: #1a1a1a;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-white);
+    padding: 0 16px;
+}
+
+.heroContent {
+    max-width: 800px;
+}
+
+.heroTitle {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.heroSubtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 32px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctaSection {
+    padding: 100px 0;
+    background-color: var(--color-white);
+    text-align: center;
+}
+
+.ctaContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.ctaTitle {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 16px;
+}
+
+.ctaDesc {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+    .heroTitle {
+        font-size: 2rem;
+    }
+
+    .ctaTitle {
+        font-size: 1.75rem;
+    }
+}
